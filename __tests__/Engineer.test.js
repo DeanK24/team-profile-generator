@@ -14,7 +14,7 @@ test('gets github', () => {
 });
 
 test('gets role of employee', () => {
-    const employee = new Employee('Dean', 40, 'dean123@gmail.com', 'DeanK24');
+    const engineer = new Engineer('Dean', 40, 'dean123@gmail.com', 'DeanK24');
 
-    expect(employee.getRole()).toEqual("Employee")
+    expect(engineer.getRole()).toEqual("Engineer")
 });
