@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.0.3",
+    "node": "^17.7.2"
+  },
+  "name": "team-profile-generator",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeanK24/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeanK24/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/DeanK24/team-profile-generator#readme"
+}
